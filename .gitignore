@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/build/
+/node_modules/
+/src/main/node_modules/
+/src/main/resources/blockly/monaco-editor
+/data

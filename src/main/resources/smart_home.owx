@@ -1,0 +1,1582 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://a.com/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://a.com/ontology">
+    <Prefix name="" IRI="http://a.com/ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>CoDAMoS context ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#API_Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbsoluteLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abstract_Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#At_Least_Once"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#At_Most_Once"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Effort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPUResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompositeRouting_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompositeService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompositeService_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delay_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exactly_Once"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIFO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finite_Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HolonID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HolonIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HolonModelType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HolonType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IODevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indefinite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infinite_Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InputDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf_Holon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemoryResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MessagingProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middleware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Noise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordering_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Out_of_Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutputDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parent_Holon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowerResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreferenceProfile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelativeLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reliability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reliability_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RenderingEngine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Root_Holon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Routing_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceGrounding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceProfile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SingleService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SingleService_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StorageResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtualMachine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R0XAvcgREtCKbGJ1LfWYbG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9URib4uYCBVSyTuzmlDx5I"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#guarantees"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChildren"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnvironmentalCondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProfile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServiceGrounding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServiceModel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServiceProfile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTask"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBetterThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEquivalent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelativeTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#may_provide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#providesHardware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#providesService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#providesSoftware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supportsModality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesIODevice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R9Xrcio7wXDKwVj70a0Bywz"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#block_template"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#branchPrediction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cpuCache"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#currAvailable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#environmentValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#exposes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#instructionSet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#latency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maxCapacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#message"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#parameters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#preferredValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#range"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reliability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#return_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#returns"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#url"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-id"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-ip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-messagingProtocol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-mobility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-model_type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-reliability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-temperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_Room_Light-type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#switch"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#API_Public"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#exposes"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbsoluteLocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abstract_Node"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#RelativeLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#At_Least_Once"/>
+        <Class IRI="#Reliability_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#At_Least_Once"/>
+        <ObjectUnionOf>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#isEquivalent"/>
+                    <Class IRI="#At_Most_Once"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isEquivalent"/>
+                <Class IRI="#At_Most_Once"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#At_Least_Once"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBetterThan"/>
+            <Class IRI="#Best_Effort"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#At_Most_Once"/>
+        <Class IRI="#Reliability_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#At_Most_Once"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBetterThan"/>
+            <Class IRI="#Best_Effort"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Effort"/>
+        <Class IRI="#Reliability_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPUResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeRouting_Properties"/>
+        <Class IRI="#CompositeService_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeRouting_Properties"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Delay"/>
+                <Class IRI="#Ordering"/>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Delay"/>
+                <Class IRI="#Reliability"/>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ordering"/>
+                <Class IRI="#Reliability"/>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#desires"/>
+            <Class IRI="#CompositeService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#guarantees"/>
+            <Class IRI="#CompositeService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_provide"/>
+            <Class IRI="#CompositeService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#CompositeService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeService_Properties"/>
+        <Class IRI="#Service_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delay"/>
+        <Class IRI="#Routing_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delay"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProfile"/>
+            <Class IRI="#Delay_Profile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delay_Profile"/>
+        <Class IRI="#PreferenceProfile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exactly_Once"/>
+        <Class IRI="#Reliability_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exactly_Once"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBetterThan"/>
+            <Class IRI="#At_Least_Once"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exactly_Once"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBetterThan"/>
+            <Class IRI="#At_Most_Once"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FIFO"/>
+        <Class IRI="#Ordering_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finite"/>
+        <Class IRI="#Delay_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTime"/>
+            <Class IRI="#Time"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finite"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasTime"/>
+            <Class IRI="#Time"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finite"/>
+        <ObjectMaxCardinality cardinality="4">
+            <ObjectProperty IRI="#hasTime"/>
+            <Class IRI="#Time"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finite_Power"/>
+        <Class IRI="#PowerResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Holon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesService"/>
+            <ObjectUnionOf>
+                <Class IRI="#CompositeService"/>
+                <Class IRI="#Service"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humidity"/>
+        <Class IRI="#EnvironmentalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IODevice"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indefinite"/>
+        <Class IRI="#Delay_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infinite_Power"/>
+        <Class IRI="#PowerResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InputDevice"/>
+        <Class IRI="#IODevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Holon"/>
+        <Class IRI="#Holon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Holon"/>
+        <Class IRI="#Physical_Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Holon"/>
+        <ObjectIntersectionOf>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasParent"/>
+                    <Class IRI="#Leaf_Holon"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasParent"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Parent_Holon"/>
+                    <Class IRI="#Root_Holon"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Holon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesService"/>
+            <Class IRI="#SingleService"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf_Holon"/>
+        <ObjectExactCardinality cardinality="0">
+            <ObjectProperty IRI="#hasChildren"/>
+            <Class IRI="#Holon"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lighting"/>
+        <Class IRI="#EnvironmentalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoryResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middleware"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Noise"/>
+        <Class IRI="#EnvironmentalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatingSystem"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordering"/>
+        <Class IRI="#Routing_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordering"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProfile"/>
+            <Class IRI="#Ordering_Profile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordering_Profile"/>
+        <Class IRI="#PreferenceProfile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Out_of_Order"/>
+        <Class IRI="#Ordering_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutputDevice"/>
+        <Class IRI="#IODevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent_Holon"/>
+        <Class IRI="#Abstract_Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent_Holon"/>
+        <Class IRI="#Holon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent_Holon"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasParent"/>
+                <Class IRI="#Parent_Holon"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasParent"/>
+                <Class IRI="#Root_Holon"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent_Holon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesService"/>
+            <Class IRI="#CompositeService"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent_Holon"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasChildren"/>
+            <Class IRI="#Leaf_Holon"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocation"/>
+            <Class IRI="#AbsoluteLocation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesHardware"/>
+            <Class IRI="#CPUResource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesHardware"/>
+            <Class IRI="#IODevice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesHardware"/>
+            <Class IRI="#MemoryResource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesHardware"/>
+            <Class IRI="#NetworkResource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesHardware"/>
+            <Class IRI="#PowerResource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesHardware"/>
+            <Class IRI="#StorageResource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Node"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesSoftware"/>
+            <Class IRI="#OperatingSystem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreferenceProfile"/>
+        <Class IRI="#Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pressure"/>
+        <Class IRI="#EnvironmentalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelativeLocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reliability"/>
+        <Class IRI="#Routing_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reliability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProfile"/>
+            <Class IRI="#Reliability_Profile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reliability_Profile"/>
+        <Class IRI="#PreferenceProfile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenderingEngine"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_Holon"/>
+        <Class IRI="#Abstract_Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_Holon"/>
+        <Class IRI="#Holon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_Holon"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasChildren"/>
+                <Class IRI="#Root_Holon"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_Holon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#providesService"/>
+            <Class IRI="#CompositeService"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_Holon"/>
+        <ObjectExactCardinality cardinality="0">
+            <ObjectProperty IRI="#hasParent"/>
+            <Class IRI="#Holon"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Routing_Properties"/>
+        <Class IRI="#SingleService_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#desires"/>
+            <Class IRI="#Service_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#guarantees"/>
+            <Class IRI="#Service_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasServiceProfile"/>
+            <Class IRI="#ServiceProfile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_provide"/>
+            <Class IRI="#Service_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Service_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceProfile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isRelativeTo"/>
+            <Class IRI="#API_Public"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#desires"/>
+            <Class IRI="#SingleService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#guarantees"/>
+            <Class IRI="#SingleService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#may_provide"/>
+            <Class IRI="#SingleService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleService"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#SingleService_Properties"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleService_Properties"/>
+        <Class IRI="#Service_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StorageResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#EnvironmentalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtualMachine"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R0XAvcgREtCKbGJ1LfWYbG"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9URib4uYCBVSyTuzmlDx5I"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#FIFO"/>
+        <Class IRI="#Out_of_Order"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Holon"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HolonID"/>
+        <NamedIndividual IRI="#Living_Room_Light-id"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HolonIP"/>
+        <NamedIndividual IRI="#Living_Room_Light-ip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MessagingProtocol"/>
+        <NamedIndividual IRI="#Living_Room_Light-messagingProtocol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobility"/>
+        <NamedIndividual IRI="#Living_Room_Light-mobility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HolonModelType"/>
+        <NamedIndividual IRI="#Living_Room_Light-model_type"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reliability"/>
+        <NamedIndividual IRI="#Living_Room_Light-reliability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temperature"/>
+        <NamedIndividual IRI="#Living_Room_Light-temperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HolonType"/>
+        <NamedIndividual IRI="#Living_Room_Light-type"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#switch"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-id"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-ip"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-messagingProtocol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-mobility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-model_type"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-reliability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-temperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasParameter"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#Living_Room_Light-type"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#providesService"/>
+        <NamedIndividual IRI="#Living_Room_Light"/>
+        <NamedIndividual IRI="#switch"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Living_Room_Light-id"/>
+        <Literal>Living_Room_Light</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Living_Room_Light-ip"/>
+        <Literal>192.168.0.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Living_Room_Light-messagingProtocol"/>
+        <Literal>HTTP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Living_Room_Light-mobility"/>
+        <Literal>movable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#Living_Room_Light-temperature"/>
+        <Literal>22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal>1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#message"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal>switch %1 %2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal>switch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#parameters"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal>dropdown(on/off),device</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#return_type"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#returns"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal>ACTION</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#switch"/>
+        <Literal>service url</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasEnvironment"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMood"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasProfile"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasServiceGrounding"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasServiceModel"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasServiceProfile"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActivity"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasChildren"/>
+        <Class IRI="#Holon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnvironment"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnvironmentalCondition"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMood"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParent"/>
+        <Class IRI="#Holon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProfile"/>
+        <ObjectUnionOf>
+            <Class IRI="#Mood"/>
+            <Class IRI="#Role"/>
+            <Class IRI="#User"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRole"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServiceGrounding"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServiceModel"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServiceProfile"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTask"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTime"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelativeTo"/>
+        <Class IRI="#RelativeLocation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#providesHardware"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#providesService"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#providesSoftware"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresPlatform"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supportsModality"/>
+        <Class IRI="#RenderingEngine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesIODevice"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesService"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActivity"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasChildren"/>
+        <Class IRI="#Holon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnvironment"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnvironmentalCondition"/>
+        <Class IRI="#EnvironmentalCondition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMood"/>
+        <Class IRI="#Mood"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParent"/>
+        <Class IRI="#Holon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProfile"/>
+        <Class IRI="#Profile"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRole"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServiceGrounding"/>
+        <Class IRI="#ServiceGrounding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServiceModel"/>
+        <Class IRI="#ServiceModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServiceProfile"/>
+        <Class IRI="#ServiceProfile"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTask"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTime"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelativeTo"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#providesHardware"/>
+        <Class IRI="#Hardware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#providesService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#providesSoftware"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresPlatform"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supportsModality"/>
+        <Class IRI="#Modality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesIODevice"/>
+        <Class IRI="#IODevice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R9Xrcio7wXDKwVj70a0Bywz"/>
+        <Class IRI="http://webprotege.stanford.edu/R0XAvcgREtCKbGJ1LfWYbG"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#block_template"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cost"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#age"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#branchPrediction"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#cpuCache"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#currAvailable"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#edition"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#gender"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#instructionSet"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#latency"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#maxCapacity"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#reliability"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#size"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#value"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#version"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#branchPrediction"/>
+        <Class IRI="#CPUResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cpuCache"/>
+        <Class IRI="#CPUResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#currAvailable"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edition"/>
+        <Class IRI="#Middleware"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#environmentValue"/>
+        <Class IRI="#EnvironmentalCondition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gender"/>
+        <Class IRI="#Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#instructionSet"/>
+        <Class IRI="#CPUResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latency"/>
+        <Class IRI="#NetworkResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maxCapacity"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#preferredValue"/>
+        <Class IRI="#PreferenceProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reliability"/>
+        <Class IRI="#NetworkResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#size"/>
+        <Class IRI="#Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#version"/>
+        <Class IRI="#Middleware"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#branchPrediction"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cpuCache"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#currAvailable"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#edition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gender"/>
+        <DataOneOf>
+            <Literal>F</Literal>
+            <Literal>M</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#instructionSet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#latency"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maxCapacity"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#message"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#range"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reliability"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#size"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R0XAvcgREtCKbGJ1LfWYbG</IRI>
+        <Literal>Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9URib4uYCBVSyTuzmlDx5I</IRI>
+        <Literal>Room</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9Xrcio7wXDKwVj70a0Bywz</IRI>
+        <Literal>hasEvent</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.19.2021-07-31T19:16:32Z) https://github.com/owlcs/owlapi/ -->
+
+

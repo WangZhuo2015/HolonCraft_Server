@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- HTML file to host Blockly in a mobile WebView. -->
+<html>
+
+<head>
+  <link rel="stylesheet" href="blockly.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <style type="text/css">
+    html,
+    body,
+    #blocklyDiv {
+      border: 0;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+  </style>
+
+  <script src="blockly_compressed.js"></script>
+  <script src="blocks_compressed.js"></script>
+  <!--  <script src="custom_blocks.js"></script>-->
+  <!-- TODO: Select msg file based on locale. -->
+  <script src="msg/js/en.js"></script>
+  <script src="toolbox_standard.js"></script>
+  <script src="generators/python.js"></script>
+  <script src="generators/python/colour.js"></script>
+  <script src="generators/python/lists.js"></script>
+  <script src="generators/python/logic.js"></script>
+  <script src="generators/python/loops.js"></script>
+  <script src="generators/python/math.js"></script>
+  <script src="generators/python/procedures.js"></script>
+  <script src="generators/python/text.js"></script>
+  <script src="generators/python/variables.js"></script>
+  <script src="generators/python/variables_dynamic.js"></script>
+  <script src="python_code_gen.js"></script>
+
+</head>
+
+<body>
+  <div id="blocklyDiv"></div>
+<!--  <div id="console"></div>-->
+  <input class="btn" type="button" value="Start" onclick="start()"
+    style="position: absolute; z-index: 100000; right: 20px; top: 20px">
+  <input class="btn" type="button" value="Save" onclick="stop()"
+    style="position: absolute; z-index: 100000; right: 20px; top: 80px">
+  <label for="task">Choose a task:</label>
+  <select name="task" id="task" onchange="requestForBlocks(document.getElementById('task').selectedIndex+1)"
+          style="position: absolute; z-index: 100000; left: 150px; top: 20px; width: 80px; height: 30px">
+    <option value="1"selected>Task1</option>
+    <option value="2">Task2</option>
+    <option value="3">Task3</option>
+  </select>
+
+  <script src="custom_setting.js"></script>
+  <script type="text/javascript">
+    var holon_workspace = Blockly.inject('blocklyDiv', {
+      media: 'media/',
+      toolbox: BLOCKLY_TOOLBOX_XML['standard'],
+      zoom: { controls: true }
+    });
+    requestForBlocks(document.getElementById('task').selectedIndex+1)
+  </script>
+  <script src="toolbox.js"></script>
+
+</body>
+
+</html>
+
+<!--<form>-->
+<!--    <p>Please select your preferred contact method</p>-->
+<!--    <div>-->
+<!--        <input type="radio" id="contactChoice1"-->
+<!--               name="contact" value="email">-->
+<!--        <label for="Choice1">Email</label>-->
+<!--        <input type="radio" id="contactChoice2"-->
+<!--               name="contact" value="phone">-->
+<!--        <label for="Choice2">Phone</label>-->
+<!--        <input type="radio" id="contactChoice3"-->
+<!--               name="contact" value="mail">-->
+<!--        <label for="Choice3">Mail</label>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <button type="submit">Submit</button>-->
+<!--    </div>-->
+<!--</form>-->
